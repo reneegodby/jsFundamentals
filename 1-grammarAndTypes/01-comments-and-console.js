@@ -38,3 +38,10 @@ COMMENTS
     console.log(sampleNum);
     sampleNum++;
     console.log(sampleNum);
+
+//Practice
+    //single line above the variable
+    myAge = 38;
+    console.log(myAge)
+    /*multi-line comment
+    multi-line comment*/
