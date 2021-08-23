@@ -53,3 +53,5 @@ if (elevatorStuckWhileWeAreOnIt = true) {
 } else{
     console.log("This elevator is fast.");
 }
+
+//test
