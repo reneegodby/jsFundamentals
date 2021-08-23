@@ -54,4 +54,26 @@ if (elevatorStuckWhileWeAreOnIt = true) {
     console.log("This elevator is fast.");
 }
 
-//test
+if(elevatorBroken && elevatorDown) {
+    console.log("I hope this thing doesn't start flying down!");
+} else{
+    console.log("How long are you in town for?");
+}
+
+if(elevatorBroken || elevatorStuckWhileWeAreOnIt){
+    console.log("Hi Bob, this is Bob with maintenance. How can I help you?")
+}
+
+//Challenge #2
+let bankAccount = 4800;
+let debt = 4200;
+let difference = bankAccount - debt
+console.log(bankAccount - debt);
+
+console.log("I have $" + bankAccount + " in my bank account, and I am $" + debt +" in debt.");
+
+if (bankAccount - debt > 700) {
+    console.log("I have some extra money. I should pay off my debt. I'll have $" + difference + " leftover.");
+} else {
+    console.log("It probably isn't a good time to pay off my debt.");
+}
