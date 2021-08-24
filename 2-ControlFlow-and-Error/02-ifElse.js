@@ -64,6 +64,27 @@ if(elevatorBroken || elevatorStuckWhileWeAreOnIt){
     console.log("Hi Bob, this is Bob with maintenance. How can I help you?")
 }
 
+//Challenge #1
+let morningsSuck = true;
+let needCoffee = true;
+let minCoffee = 2;
+
+if (morningsSuck === true) {
+    console.log("I'm going back to bed!");
+} else {"I need coffee to function."};
+
+if (needCoffee = true){
+    console.log("Lets go to Starbucks!");
+} else{
+    console.log("Let's go to Starbucks anyway!")
+}
+
+if (minCoffee >= 2){
+    console.log("I am now functional and can be approached.")
+} else{
+    console.log("Approach at your own risk. Need more coffee.")
+}
+
 //Challenge #2
 let bankAccount = 4800;
 let debt = 4200;

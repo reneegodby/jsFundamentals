@@ -60,9 +60,14 @@ console.log(tonight, elevenFifty)
 tonight = 'lovely!';
 console.log(tonight, elevenFifty);
 
-elevenFifty = 'Super!;' //Can't change a const variable
+// elevenFifty = 'Super!;' //Can't change a const variable
 
 
+//PRACTICE
 
+let myName = 'Renee';
+let yourName = 'Dude';
+console.log(myName);
+console.log(yourName);
 
  

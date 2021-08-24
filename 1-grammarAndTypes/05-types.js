@@ -113,3 +113,29 @@ var stepsToBrushTeeth = ['uncap toothpaste', 'squeeze toothpaste', 'rinse brush'
 // console.log(stepsToBrushTeeth);
 console.log(stepsToBrushTeeth[0]);
 console.log(typeof stepsToBrushTeeth);//will always say object, never array
+
+//PRACTICE
+let sunIsOut = true; //Boolean
+console.log(sunIsOut)
+
+let abc; //Undefined
+console.log(abc)
+
+let xyz = null; //Null
+console.log(xyz);
+
+let myAge = 38; //Numbers
+console.log(myAge);
+
+let myDog = "Daisy"; //String + string concactenation
+console.log(myDog + " is adorable!")
+
+let daisy = {            //Object
+    color: 'white',
+    age: 1,
+    isAdorable: true
+}
+console.log(daisy);
+console.log(daisy.age); //dot notation
+console.log(daisy.color);
+console.log(typeof daisy);
