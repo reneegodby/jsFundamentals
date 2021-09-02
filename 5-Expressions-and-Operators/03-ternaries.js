@@ -1,5 +1,6 @@
 /* 
 TERNARIES
+https://codeburst.io/javascript-the-conditional-ternary-operator-explained-cac7218beeff
 
 5-expressionsAndOperators
     03-ternaries.js

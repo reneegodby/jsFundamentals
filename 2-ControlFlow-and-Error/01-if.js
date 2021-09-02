@@ -1,5 +1,20 @@
 /*
 IF CONDITIONALS
+
+https://www.javascript.com/learn/conditionals
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals
+
+Conditionals check conditions in your program. They have the power to alter the state or flow of your application based on certain conditions being met or unmet, true or false.
+Less than: <
+Greater than: >
+Less than or equal to: <=
+Greater than or equal to: >=
+Is equal to: ===
+Is not equal to: !==
+-There are three logical operators:
+1. the and operator (&&)
+2. the or operator (||)
+3. the not operator, otherwise known as the bang operator (!)
 */
 
 let isOn = true;

@@ -1,8 +1,11 @@
 /*
 TYPES
+https://www.w3schools.com/js/js_datatypes.asp
 
-1-grammarAndTypes
-    05-types.js
+Primitive Types:
+    Numbers, strings, booleans, symbols
+Object Types:
+    Arrays, 
 */
 
 //Boolean
@@ -80,6 +83,7 @@ let string =`my age is: ${age}`
 console.log(string);
 
 //Objects
+//https://www.w3schools.com/js/js_objects.asp
 /*
 What is an object?
 
@@ -101,6 +105,7 @@ console.log(hulk.color);
 console.log(typeof hulk);
 
 //Arrays
+//https://www.w3schools.com/js/js_arrays.asp
 /*
 Arrays stores multiple values in an ordered way. (sequence)
 They, too hold multiple data types. 
