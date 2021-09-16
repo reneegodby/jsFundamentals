@@ -21,20 +21,25 @@
 // .then(json => console.log(json))
 
 // async function slowResult(){
-//     await fetch('https://api.artic.edu/api/v1/artworks')
-//         .then(res => res.json())
+//     await fetch('https://api.artic.edu/api/v1/artworks')       //awaits fetch 
+//         .then(res => res.json())                                //awaits jsonification of data
 //         .then(json => console.log (json))
-//     console.log('this is a message!')
+//     // console.log('this is a message!')
 // }
 
 // slowResult();       //calling function but won't happen immediately
 
-async function slowResult(){
-    await fetch('https://api.artic.edu/api/v1/artworks')
-        .then(res => res.json())
-        .then(json => {json.lolProperty = 'this is a random property!'; return json;})
-        .then(json => console.log(json))
+
+async function slowResult(){    
+    await fetch('https://api.artic.edu/api/v1/artworks')       //fetch talks to the server
+        .then(res => res.json())                                //server gives us something back. That's the res. Then we turn it into json
+        .then(test => {test.lolProperty = 'this is a random property!'; return test;})                              
+        .then(json => console.log (json))
     console.log('this is a message!')
 }
 
-slowResult();
+slowResult();       //calling function but won't happen immediately
+
+
+
+
